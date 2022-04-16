@@ -9,6 +9,9 @@ module.exports = {
   networks: {
     hardhat: {
       chainId: 1337,
+      mainnet: {
+        url: `https://polygon-mainnet.g.alchemy.com/v2/${process.env.ALCHEMY_API_KEY}`,
+        accounts: [`0x${process.env.PRIVATE_KEY}`],
     },
     mumbai: {
       url: `https://polygon-mumbai.g.alchemy.com/v2/${process.env.ALCHEMY_API_KEY}`,
@@ -18,4 +21,4 @@ module.exports = {
   mocha: {
     timeout: 4000000,
   },
-};
+  };

@@ -11,14 +11,14 @@
           <UserProfileHeader />
           <div class="toggleWrapper">
             <a @click="toggleShowLikedItems">
-              <div v-if="showLikedPosts" class="createdInactive">created</div>
+              <div v-if="showLikedPosts" class="createdInactive">CREATED</div>
             </a>
-            <div v-if="!showLikedPosts" class="createdActive">created</div>
+            <div v-if="!showLikedPosts" class="createdActive">CREATED</div>
             <div class="divider">|</div>
             <a @click="toggleShowLikedItems">
-              <div v-if="!showLikedPosts" class="likedInactive">LUVd</div>
+              <div v-if="!showLikedPosts" class="likedInactive">LUVD</div>
             </a>
-            <div v-if="showLikedPosts" class="likedActive">LUVd</div>
+            <div v-if="showLikedPosts" class="likedActive">LUVD</div>
           </div>
           <UserGallery v-if="!showLikedPosts" @like-event="updateparent" />
           <UserLikedGallery v-if="showLikedPosts" @like-event="updateparent" />

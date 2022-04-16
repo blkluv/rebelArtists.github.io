@@ -2,7 +2,7 @@
   <section id="content">
     <div class="main">
       <section id="about" class="aboutDescription">
-        <div class="aboutHeader">About</div>
+        <div class="aboutHeader">ABOUT</div>
         <div class="team">
           <ul class="auto-grid" role="list">
             <li class="lineItem">

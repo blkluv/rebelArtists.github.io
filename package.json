@@ -1,5 +1,5 @@
 {
-  "name": "rebel",
+  "name": "luv",
   "version": "0.0.1",
   "description": "NFT Share File",
   "scripts": {
@@ -20,7 +20,7 @@
   },
   "homepage": "https://share.nyan.my.id",
   "dependencies": {
-    "@cloudinary/url-gen": "^1.6.0",
+    "@cloudinary/url-gen": "^1.7.0",
     "@dicebear/avatars": "^4.10.2",
     "@dicebear/avatars-bottts-sprites": "^4.10.2",
     "@nomiclabs/hardhat-ethers": "^2.0.5",

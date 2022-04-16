@@ -5,14 +5,14 @@
         <div class="feedHeader">
           <div class="toggleWrapper">
             <a @click="toggleShowRandomItems">
-              <div v-if="showRandomPosts" class="latestInactive">latest</div>
+              <div v-if="showRandomPosts" class="latestInactive">LATEST</div>
             </a>
-            <div v-if="!showRandomPosts" class="latestActive">latest</div>
+            <div v-if="!showRandomPosts" class="latestActive">LATEST</div>
             <div class="divider">|</div>
             <a @click="toggleShowRandomItems">
-              <div v-if="!showRandomPosts" class="randomInactive">random</div>
+              <div v-if="!showRandomPosts" class="randomInactive">RANDOM</div>
             </a>
-            <div v-if="showRandomPosts" class="randomActive">random</div>
+            <div v-if="showRandomPosts" class="randomActive">RANDOM</div>
           </div>
         </div>
         <div class="feedGrid">

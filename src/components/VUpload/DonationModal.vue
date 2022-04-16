@@ -2,7 +2,7 @@
   <Transition name="modal">
     <div v-if="show" class="modal-donation-mask">
       <div class="login-box-donation">
-        <h2>Artist Donation</h2>
+        <h2>5D LUVR DONATION</h2>
         <form>
           <div class="user-box-donation">
             <input

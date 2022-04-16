@@ -21,7 +21,7 @@
       class="container"
       v-if="!postedItems[0] && account != this.$route.params.name"
     >
-      no posts yet.
+      No posts yet.
     </div>
 
     <div class="wrapperGallery">

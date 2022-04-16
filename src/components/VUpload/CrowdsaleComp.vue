@@ -13,7 +13,7 @@
     </div>
   </div>
   <div class="login-box">
-    <h2>Crowdsale</h2>
+    <h2>FUNDRAISE</h2>
     <span class="crowdsaleStats">
       <h4>Available: <br />{{ 500000000 - amtRaised }} LUV</h4>
       <h4>Your Stake: <br />{{ userContribution }} MATIC</h4>
